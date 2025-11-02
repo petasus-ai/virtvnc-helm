@@ -5,9 +5,9 @@ entries:
       category: Infrastructure
     apiVersion: v1
     appVersion: "1.0"
-    created: "2023-01-20T02:53:39.701453214Z"
+    created: "2025-11-02T17:57:58.17059545-05:00"
     description: A Helm chart for virtvnc deployment
-    digest: eae2f7c474c1f78f8ae1e9f8aad3b118c4b6cc7a030e716e621b347e55c2668c
+    digest: 59f7d82abaa86b997bc2f492031fc9b3e2e0b845352dff28142650175b268df1
     home: https://github.com/sonaproject/virtvnc
     keywords:
     - MEC
@@ -23,4 +23,4 @@ entries:
     urls:
     - virtvnc-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-20T02:53:39.700431821Z"
+generated: "2025-11-02T17:57:58.170007563-05:00"
