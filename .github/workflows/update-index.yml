@@ -6,12 +6,17 @@ on:
     paths:
       - '**.tgz'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # This is true by default, but good to be explicit.
       - name: Helm Installation
         uses: azure/setup-helm@v1.1
         with:
