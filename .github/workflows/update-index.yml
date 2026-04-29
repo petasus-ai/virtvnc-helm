@@ -23,5 +23,6 @@ jobs:
           git config --global user.name "edgestack-bot"
           git add index.yaml
           git commit -m "Update chart index"
+          # Update the remote URL to include the token
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push
-
